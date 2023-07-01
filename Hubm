@@ -51,6 +51,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Keeron1/Cefrus-Hub/ma
     print("Clicked")
 end)
 local Tab = Window:NewTab("lock player")
+local Section = Tab:NewSection("just lock")
 Section:NewButton("lock player", "ButtonInfo", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/zephyr10101/PlayerLock/main/Script",true))()
     print("Clicked")
